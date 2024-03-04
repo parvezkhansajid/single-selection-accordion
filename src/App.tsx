@@ -13,7 +13,7 @@ const App = () => {
 
       <div className="accordion container mx-auto flex flex-col gap-4">
         {data && data.length > 0 ? (
-          data.map((item, key) => (
+          data.map((item) => (
             <div className="item px-8 py-4 rounded-lg  bg-teal-200">
               <div
                 onClick={() => handleSelection(item.id)}
